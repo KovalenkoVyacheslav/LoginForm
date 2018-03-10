@@ -6,8 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/8">
    <children>
       <Label layoutX="50.0" layoutY="49.0" text="Sign UP">
          <font>
@@ -40,7 +39,9 @@
       <Button layoutX="195.0" layoutY="330.0" mnemonicParsing="false" text="I am already member" />
       <Line endX="130.0" layoutX="195.0" layoutY="370.0" stroke="#e03434" strokeWidth="2.0" />
       <Label layoutX="246.0" layoutY="398.0" style="-fx-background-color: #898383;" text="Created by Vyacheslav" textFill="#ffe4e4" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="390.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
-      <Label layoutX="390.0" layoutY="76.0" text="А картинку не хоче вставляти і помилки не видає" />
+      <ImageView fitHeight="325.0" fitWidth="372.0" layoutX="283.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../fun.jpg" />
+         </image></ImageView>
    </children>
 </AnchorPane>
